@@ -1,4 +1,3 @@
-# エラー破綻する
 import numpy as np
 
 class AutoRegression:
