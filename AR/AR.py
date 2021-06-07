@@ -23,8 +23,6 @@ class AutoRegression:
                 error = y - y_real
                 if epo == epoch-1:
                     self.yhat.append(y)
-#                 self.Error.append(error)
-#                 print(f'ite: {ite}, error: {error}, a: {self.a}, y: {self.y}')
                 
                 # SGD
                 self.a[0] -= alpha * error
