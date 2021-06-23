@@ -61,7 +61,7 @@ class VARX:
                 self.a[0] -= lr * error
                 for i in range(self.n):
                     self.a[i+1] -= lr * error * self.y_hist[i]
-                for i in range(self.m):
+                for i in range(self.m+1):
                     self.b[i] -= lr * error * self.u_hist[i]
                 
             # RMSE
