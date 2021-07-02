@@ -14,6 +14,7 @@ singularity image, including
 - Vector Autoregression with Exogenous variables, VARX
 - Learning Vector Quantization, LVQ
 - Support Vector Machine, SVM
+- Random Forest (bagging decision trees), RF (need to add CART module to complete)
 
 ## References
 - [Master Machine Learning Algorithms, Jason Brownlee](https://machinelearningmastery.com/master-machine-learning-algorithms/)
