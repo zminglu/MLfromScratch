@@ -22,7 +22,7 @@ singularity image, including
 - [ ] Support Vector Machine, SVM
 ### Ensemble Algorthms
 - [x] Random Forest (bagging decision trees), RF
-- [ ] AdaBoost
+- [x] AdaBoost
 ### Neural Networks
 
 ## References
